@@ -1,11 +1,16 @@
 <template lang="html">
   <div class="mainHeader">
 		<div id="nav">
-      <router-link to="/">Home </router-link> ||
+      <!-- <router-link to="/">Home </router-link> ||
       <router-link to="/about"> About</router-link> ||
-			<router-link to="/new"> Add A Post</router-link>
+			<router-link to="/new"> Add A Post</router-link> -->
     </div>
-		<h2>header text goes here</h2>
+		<div id='home'>
+			<router-link to="/">
+				<h2>Name of Site (doubles as a link to home!)</h2>
+			</router-link>
+		</div>
+
   </div>
 </template>
 
@@ -22,11 +27,16 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
 .mainHeader {
 	height: 10vw;
 	background-color: teal;
 }
 h2 {
 	padding: 0px;
+}
+#home {
+	text-decoration: none;
+	color: red;
 }
 </style>
