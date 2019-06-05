@@ -1,7 +1,10 @@
 <template>
-  <div class="new">
+  <div id="new">
 		<Header/>
-    <h1>This is a new view</h1>
+		<div class="thing">
+			<h3>Go Ahead, tell us a story</h3>
+			
+		</div>
   </div>
 </template>
 
@@ -15,3 +18,19 @@ export default {
   }
 }
 </script>
+
+<style media="screen">
+	#new {
+		height: 100vh;
+		background-image: url('../assets/splash.jpg');
+		background-repeat: no-repeat;
+		background-size: 100vw 100vh;
+		color: white;
+	}
+	.thing {
+		border: 2px solid white;
+		margin-left: 8vw;
+		height: 80vh;
+		width: 45vw;
+	}
+</style>
