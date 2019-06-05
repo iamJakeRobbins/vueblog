@@ -2,10 +2,10 @@
   <div class="mainHeader">
 		<div id="nav">
       <router-link to="/">Home </router-link> ||
-      <router-link to="/about"> About</router-link>
+      <router-link to="/about"> About</router-link> ||
+			<router-link to="/new"> Add A Post</router-link>
     </div>
 		<h2>header text goes here</h2>
-		<button type="button" name="button" @click='this.load'><router-link to="/">Home </router-link></button>
   </div>
 </template>
 
