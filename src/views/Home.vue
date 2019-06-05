@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-		<!-- <Header/> -->
 		<Splash/>
   </div>
 </template>
@@ -19,7 +18,4 @@ export default {
 }
 </script>
 <style media="screen">
-	#home {
-		/* background-image: url('../assets/splash.jpg'); */
-	}
 </style>
