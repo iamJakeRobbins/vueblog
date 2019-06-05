@@ -1,17 +1,17 @@
 <template lang="html">
   <div class="mainHeader">
-		<div id="nav">
-			<!-- <router-link to="/new"> Add A Post</router-link> -->
-    </div>
 		<div id='home'>
-			<!-- <img src="../assets/arrow-down-right.svg" alt="">
-			<i class="fas fa-arrow-right"></i> -->
-			<router-link to="/" class="navLink">
-				<h2>Name of Site (doubles as a link to home!)</h2>
-			</router-link>
-			<router-link to="/about" class="navLink"> About</router-link>
+			<div class="headerBox">
+				<div class="menu">
+				side
+				</div>
+				<div class="headerTitle">
+					<router-link to="/" class="navLink">
+						<h2>Name of Site (doubles as a link to home!)</h2>
+					</router-link>
+				</div>
 		</div>
-
+	</div>
   </div>
 </template>
 
@@ -34,8 +34,24 @@ export default {
 	/* background-color: teal; */
 }
 
+.headerBox {
+	display: flex;
+	justify-content: space-between;
+}
+
 .navLink {
 	color: white;
 	text-decoration: none;
+}
+
+.headerTitle {
+	padding-top: 1vh;
+	padding-right: 1vw;
+	text-align: right;
+}
+
+.menu {
+	padding-top: 1vh;
+	padding-left: 1vw;
 }
 </style>
