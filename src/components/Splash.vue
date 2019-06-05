@@ -1,15 +1,26 @@
 <template lang="html">
-	<div class="">
-		<h1>Landing Page test</h1>
-		<img src="../assets/logo.png" alt="">
+	<div id="splash">
+		<Header/>
+		<!-- <h1>Landing Page test</h1> -->
 	</div>
 
 </template>
 
 <script>
+import Header from '@/components/Header.vue';
 export default {
+	components: {
+		Header,
+	}
 }
 </script>
 
 <style lang="css" scoped>
+#splash{
+	height: 100vh;
+	background-image: url('../assets/splash.jpg');
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	color: white;
+}
 </style>
