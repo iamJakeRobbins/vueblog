@@ -5,7 +5,10 @@
       <router-link to="/about"> About</router-link> ||
 			<router-link to="/new"> Add A Post</router-link> -->
     </div>
+
 		<div id='home'>
+			<img src="../assets/arrow-down-right.svg" alt="">
+			<i class="fas fa-arrow-right"></i>
 			<router-link to="/">
 				<h2>Name of Site (doubles as a link to home!)</h2>
 			</router-link>
