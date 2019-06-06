@@ -3,7 +3,8 @@
 		<Header/>
 		<div class="thing">
 			<h3>{{title}}</h3>
-
+<textarea name="newPost" class="newPost"></textarea>
+<button name="button">save your post</button>
 		</div>
   </div>
 </template>
@@ -37,5 +38,9 @@ export default {
 		margin-left: 8vw;
 		height: 80vh;
 		width: 45vw;
+	}
+	.newPost {
+		height: 72vh;
+		width: 41vw;
 	}
 </style>
