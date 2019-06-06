@@ -1,7 +1,7 @@
 <template lang="html">
 	<div id="splash">
 		<Header/>
-		<h1>Landing Page test</h1>
+		<h1> {{title}}</h1>
 		<Footer/>
 	</div>
 
@@ -11,6 +11,11 @@
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
 export default {
+	data: function() {
+		return {
+			title: 'Landing Page Test'
+		}
+	},
 	components: {
 		Header,
 		Footer,
