@@ -2,8 +2,8 @@
   <div id="new">
 		<Header/>
 		<div class="thing">
-			<h3>Go Ahead, tell us a story</h3>
-			
+			<h3>{{title}}</h3>
+
 		</div>
   </div>
 </template>
@@ -13,6 +13,11 @@ import Header from '@/components/Header.vue';
 
 export default {
   name: 'new',
+	data: function () {
+		return {
+		title: "Go Ahead, Tell Us a Story"
+	}
+},
   components: {
 		Header,
   }
