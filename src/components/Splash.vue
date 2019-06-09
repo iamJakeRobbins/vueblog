@@ -3,7 +3,7 @@
 		<Header/>
 		<h1> {{title}}</h1>
 		<router-link to="/blog">
-<h2>Blog</h2>
+			<h2>Blog</h2>
 		</router-link>
 		<Footer/>
 	</div>
